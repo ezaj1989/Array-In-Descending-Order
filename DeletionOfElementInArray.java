@@ -1,4 +1,4 @@
-
+// this is the Deletion of element in array.
 public class DeletionOfElementInArray {
     public static void main(String[] args) {
         int i;
