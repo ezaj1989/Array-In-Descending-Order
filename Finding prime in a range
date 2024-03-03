@@ -1,0 +1,21 @@
+public class PrimeInRange {
+    public static boolean isPrime(int p){
+        boolean isPrime=true;
+        for(int i=2;i<p;i++){
+            if(p%i==0)
+                isPrime=false;
+        }
+        return isPrime;
+    }
+    public static void primesInRange(int p){
+        for(int i=2;i<p;i++){
+            if(isPrime(i))
+                System.out.print(i+" ");
+        }
+        System.out.println();
+    }
+    public static void main(String[] args){
+        primesInRange(20);
+        primesInRange(100);
+    }
+}
