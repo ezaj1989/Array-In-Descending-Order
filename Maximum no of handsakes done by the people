@@ -1,0 +1,10 @@
+import java.util.*;
+public class Max_no_Of_HandSakes {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the no of people in the room: ");
+        int N=sc.nextInt();
+        int HandSakes=((N-1)*N)/2;
+        System.out.println("The no of handsakes done was: "+HandSakes);
+    }
+}
